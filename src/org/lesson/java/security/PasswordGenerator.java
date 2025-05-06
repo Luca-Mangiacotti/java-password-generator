@@ -22,5 +22,6 @@ public class PasswordGenerator {
         int sumForPass = userDay + userMonth + userYear;
         String userPassword = userName + "-" + userSurname + "-" + userColor + "-" + sumForPass;
         System.out.println("La tua password è: " + userPassword);
+        input.close();
     }
 }
